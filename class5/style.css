@@ -5,14 +5,37 @@
 }
 
 .container{
-    background: aliceblue;
-    color: black;
-    height: 50px;
-    width: 50px;
-    border: 5px solid green;
+    margin: 20px;
+    padding: 20px;
+    background: rgb(16, 113, 198);
+    color:white;
+ 
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+   
+
 }
 
 .box{
-    border: 1px slid red;
+   
+    padding: 10px;
+    margin: 10px;
+}
+
+.box1{
+    background: aqua;
+}
+.box2{
+    background: rgb(184, 12, 172);
+}
+.box3{
+    background: rgb(17, 23, 186);
+}
+.box4{
+    background: rgb(4, 133, 17);
 }
 
