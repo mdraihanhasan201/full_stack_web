@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vwh;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(47, 225, 100) 0%, rgba(189,189,201,1) 88%, rgb(103, 212, 107) 100%);
+    border: 1px solid red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.card_box{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(47, 225, 100) 0%, rgb(5, 5, 182) 88%, rgb(103, 212, 107) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 610px;
+  border: 2px solid black;
+  gap: 20px;
+  border-radius: 10px;
+
+}
+.card_box img{
+   padding: 3px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.card_box h2{
+    text-transform: capitalize;
+    font-size: 2em;
+    color:black ;
+    text-shadow: 10px 10px 20px;
+
+}
+
+.card_box p{
+    padding: 10px;
+}
+
+.inside_box{
+    padding: 7px;
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-radius: 10px;
+    box-shadow: 10px 10px 70px;
+  
+    background:#4CAF50;
+
+}
+.inside_box img{
+    width: 50px;
+    height: 50px;
+    
+   
+   
+}
+a{
+    text-decoration: none;
+    color:black;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.button{
+  
+    border-radius: 10px;
+    background-color:#4CAF50;
+    cursor: pointer;
+    
+    width: 250px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
