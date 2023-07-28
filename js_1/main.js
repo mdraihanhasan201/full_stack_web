@@ -1,13 +1,11 @@
-const button = document.getElementById('button');
-const counter=0;
+var button = document.getElementById("button");
 
-function innerelement(){
-    const counterele=document.getElementById('counter')
-    counter++
-    counterele.innerText=counter;
+button.onclick=function () {
+   let change =document.getElementById("heading");
+   change.innerHTML="hey i am succesfully changed!";
 
+    
 }
 
 
-button.addEventListener('click',innerelement)
 
