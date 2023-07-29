@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    width: 100vwh;
+    height: 100vh;
+    background: rgb(43,43,43);
+   
+    
+
+}
+
+.calculator{
+    background: rgb(214,214,214);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center ;
+    height: 690px;
+    width: 600px;
+    border-radius: 10px 10px 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: -10px -10px 30pc;
+    
+
+}
+.calculator h2{
+    margin-top: 5%;
+    padding: 20px;
+    font-size: 2em;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px;
+    box-shadow: 10px 10px 10px;
+
+}
+
+.level{
+    display: flex;
+    gap: 7%;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 30%;
+    box-shadow: -10px 10px 9px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    background-color:#d8d4ca ;
+
+
+}
+
+#number1{
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+ 
+   
+}
+#result{
+    height: 100px;
+    width: 300px;
+    border-radius: 10px 10px 10px;
+
+}
+#number2{
+    height: 50px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.matmatical{
+    margin-top: 30px;
+    
+}
+#add{
+       width: 80px;
+        border-radius: 10px;
+        background: rgb(214,214,214);
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 1.4em;
+        box-shadow: 10px 10px 10px;
+       
+    
+
+}
+#mul{
+       width: 80px;
+        border-radius: 10px;
+        background: rgb(214,214,214);
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 1.4em;
+        box-shadow: 10px 10px 10px;
+        
+    
+
+}
+#div{
+       width: 80px;
+        border-radius: 10px;
+        background: rgb(214,214,214);
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 1.4em;
+        box-shadow: 10px 10px 10px;
+        
+    
+
+}
+#sub{
+       width: 80px;
+        border-radius: 10px;
+        background: rgb(214,214,214);
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 1.4em;
+        box-shadow: 10px 10px 10px;
+       
+
+}
+
+
+#add:hover {
+    background-color: #df340e; /* Green */
+    color: rgb(230, 219, 219);
+  }
+#sub:hover {
+    background-color: #df340e; /* Green */
+    color: rgb(230, 219, 219);
+  }
+#mul:hover {
+    background-color: #df340e; /* Green */
+    color: rgb(230, 219, 219);
+  }
+#div:hover {
+    background-color: #df340e; /* Green */
+    color: rgb(230, 219, 219);
+  }
+
