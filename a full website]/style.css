@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.p-3 {
+    text-align: center;
+    color: rgb(231, 231, 32);
+     background:#3c3c3c;
+     font-weight: bold;
+
+}
+.navbar{
+    background: #000;
+    
+}
+.nav-items{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+   margin-left:50px ;
+   margin-right: 50px;
+    
+     
+}
+
